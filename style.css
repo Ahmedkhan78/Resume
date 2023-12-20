@@ -297,3 +297,305 @@ a {
     font-size: 40px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 576px) {
+    body{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        object-fit: fill;
+        word-wrap: break-word;
+    }
+
+    .content-1 {
+        font-size: 14px;
+        object-fit: fill;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .short-description{
+        width: 100%;
+        flex-direction: column;
+    }
+    .profile{
+        float: none ;
+    }
+    .Information{
+        width: 100%;
+    }
+    .contacts{
+        width: 100%;
+    }
+    .contacts ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  20px 1fr;
+    }
+    .contacts li{
+        width: 100%;
+    }
+    .features{
+        width: 100%;
+    }
+    .education{
+        font-size: 14px;
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }.project{
+        width: 100%;
+    }
+    .interpersonal{
+        width: 100%;
+    }
+    .language{
+        width: 100%;
+    }
+    .language ul{
+        width: 90%;
+    }
+    .file{
+        width: 90%;
+    }
+
+    .interest{
+        width: 100%;
+    }
+    .common-Button{
+        width: 90%;
+    }
+    
+}
+
+/* Additional media queries for specific devices or screen sizes if needed */
+@media screen and (max-width: 1024px) {
+    body{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        object-fit: fill;
+        word-wrap: break-word;
+    }
+
+    .content-1 {
+        font-size: 14px;
+        object-fit: fill;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .short-description{
+        width: 100%;
+        flex-direction: column;
+    }
+    .profile{
+        float: none ;
+    }
+    .Information{
+        width: 100%;
+    }
+    .contacts{
+        width: 100%;
+    }
+    .contacts ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  20px 1fr;
+    }
+    .contacts li{
+        width: 100%;
+    }
+    .features{
+        
+        width: 100%;
+    }
+    .education{
+        font-size: 14px;
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }.project{
+        width: 100%;
+    }
+    .interpersonal{
+        width: 100%;
+    }
+    .language{
+        width: 100%;
+    }
+    .language ul{
+        width: 90%;
+    }
+    .file{
+        width: 90%;
+    }
+
+    .interest{
+        width: 100%;
+    }
+    .common-Button{
+        width: 100%;
+    }
+    /* Styles for smaller desktops or larger tablets */
+}
+
+@media screen and (max-width: 425px) {
+    /* Styles for small phones in portrait mode */
+    body{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .content-1 {
+        object-fit: fill;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .short-description{
+        width: 100%;
+        flex-direction: column;
+    }
+    .profile{
+        float: none ;
+    }
+    .Information{
+        width: 100%;
+    }
+    .contacts{
+        width: 100%;
+    }
+    .contacts ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  40px 1fr;
+    }
+    .contacts li{
+        width: 100%;
+    }
+    .features{
+        
+        width: 100%;
+    }
+    .education{
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }.project{
+        width: 100%;
+    }
+    .interpersonal{
+        width: 100%;
+    }
+    .language{
+        width: 100%;
+    }
+    .language ul{
+        width: 90%;
+    }
+    .file{
+        width: 90%;
+    }
+
+    .interest{
+        width: 100%;
+    }
+    .common-Button{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Styles for smaller phones in portrait mode */
+    body{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        object-fit: fill;
+        word-wrap: break-word;
+    }
+
+    .content-1 {
+        font-size: 14px;
+        object-fit: fill;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .short-description{
+        width: 100%;
+        flex-direction: column;
+    }
+    .profile{
+        float: none ;
+    }
+    .Information{
+        width: 100%;
+    }
+    .contacts{
+        width: 100%;
+    }
+    .contacts ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  20px 1fr;
+    }
+    .contacts li{
+        width: 100%;
+    }
+    .features{
+        flex-direction: column;
+        width: 100%;
+    }
+    .education{
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }.project{
+        width: 100%;
+    }
+    .interpersonal{
+        width: 100%;
+    }
+    .language{
+        width: 100%;
+    }
+    .language ul{
+        width: 90%;
+    }
+    .file{
+        width: 90%;
+    }
+
+    .interest{
+        width: 100%;
+    }
+    .common-Button{
+        width: 90%;
+    }
+    body h1,h3,h4 {
+        width: 100%;
+    }
+}
+
+
+
